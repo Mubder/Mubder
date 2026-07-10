@@ -33,12 +33,12 @@ Building production-grade autonomous AI agent swarms. Arabic-native, MIT-license
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Highlights
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mubder&show_icons=true&theme=github-dark&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mubder&layout=compact&theme=github-dark&hide_border=true" height="150" />
-</p>
+- **630+ commits** across 3 repositories
+- **3,400+ tests** passing in Kazma core
+- **718 contributions** in the last year
+- **100+ LLM models** supported via Universal Model Registry
 
 ---
 
