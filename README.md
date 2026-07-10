@@ -20,14 +20,16 @@ Building production-grade autonomous AI agent swarms. Arabic-native, MIT-license
 
 ### 🛠 Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat&logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite_WAL-003B57?style=flat&logo=sqlite&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat&logoColor=white)
 ![Textual](https://img.shields.io/badge/Textual_TUI-7A3E9E?style=flat&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![aiogram](https://img.shields.io/badge/aiogram-26A5E4?style=flat&logo=telegram&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-F5A800?style=flat&logo=opentelemetry&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat&logo=ruff&logoColor=black)
 
 ---
 
