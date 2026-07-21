@@ -1,20 +1,32 @@
-# 👋 Alfaris (Mubder)
+# 👋 Mubder Alfaris
 
 **Founder & Lead Architect @ [KazmaAI](https://github.com/KazmaAI)**  
-Building production-grade autonomous AI agent swarms. Arabic-native, MIT-licensed, durable by design.
+Building production-grade autonomous AI agent systems. Arabic-native (**كاظمه**), MIT-licensed, durable by design.
 
 ---
 
 ### 🔭 What I'm Building
 
-**[Kazma (كاظمة)](https://github.com/Mubder/kazma)** — Autonomous AI Agent Operating System
+**[Kazma (كاظمه)](https://github.com/Mubder/kazma)** — Multi-platform AI agent framework
 
-- **Durable execution** — agents survive SIGKILL via SQLite checkpointing
-- **Swarm orchestration** — multi-worker dispatch with circuit breakers
-- **Zero-trust safety** — triple-wired HITL gates, fail-closed always
-- **100+ LLM models** — Universal Model Registry with hot-swap
-- **Arabic-first** — native tokenizer, Gulf dialect, Majlis Mode
-- **3,400+ tests** — MIT licensed, shipping from Kuwait
+> Latin: **Kazma** · Arabic: **كاظمه** / **كاظمة** · never «كازما»
+
+- **LangGraph supervisor** — ReAct tools loop, SQLite checkpoints, context compaction, per-turn RAG
+- **Swarm orchestration** — multi-worker dispatch, pipelines, circuit breakers, reliability registry
+- **IDE subsystem** — transport-agnostic coding backend (Web `/ide`, TUI editor, chat `/ide`)
+- **Triple HITL safety** — graph interrupt + swarm bus + pipeline checkpoints (fail-closed)
+- **Cross-platform** — Windows / Linux / macOS / WSL · project data in `kazma-data/` · portable paths
+- **Arabic-first** — correct brand identity, dialect-aware replies, cultural context, product self-knowledge
+- **Production path** — hardened defaults, Docker, optional Postgres multi-user / OIDC foundation
+- **4,000+ tests** · **900+ commits** · shipping from Kuwait
+
+Also shipping:
+
+| Project | Focus |
+|---------|--------|
+| [ShipX](https://github.com/Mubder/ShipX) | AI delivery intelligence |
+| [KCA](https://github.com/Mubder/KCA) | Knowledge Capital Atlas — institutional engineering OS |
+| [KazmaAI](https://github.com/Mubder/KazmaAI) | kazma.ai product site (Astro) |
 
 ---
 
@@ -24,21 +36,22 @@ Building production-grade autonomous AI agent swarms. Arabic-native, MIT-license
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite_WAL-003B57?style=flat&logo=sqlite&logoColor=white)
+![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat&logoColor=white)
 ![Textual](https://img.shields.io/badge/Textual_TUI-7A3E9E?style=flat&logoColor=white)
-![aiogram](https://img.shields.io/badge/aiogram-26A5E4?style=flat&logo=telegram&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-F5A800?style=flat&logo=opentelemetry&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram_Discord_Slack-26A5E4?style=flat&logo=telegram&logoColor=white)
 ![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat&logo=ruff&logoColor=black)
 
 ---
 
-### 📊 Highlights
+### 📊 Focus right now
 
-- **630+ commits** across 3 repositories
-- **3,400+ tests** passing in Kazma core
-- **718 contributions** in the last year
-- **100+ LLM models** supported via Universal Model Registry
+- **Production readiness** — auth hardening, secret defaults, shutdown drain, HITL fail-closed
+- **Agent product knowledge** — the model knows what Kazma can do, how to operate it, and how to fix common errors
+- **Arabic brand correctness** — system prompts + language lock enforce **كاظمه**, never **كازما**
+- **SaaS foundation** — Postgres backend, platform RBAC, OIDC hooks, backup/restore runbooks
+- **IDE + multi-workspace** — repo identity, env context, swarm-aware coding path
 
 ---
 
@@ -54,5 +67,6 @@ Building production-grade autonomous AI agent swarms. Arabic-native, MIT-license
 ---
 
 <p align="center">
-  <i>Built in Kuwait. Open-source. No shortcuts.</i>
+  <i>Built in Kuwait. Open-source. No shortcuts.</i><br/>
+  <i dir="rtl">كاظمه — من الكويت إلى العالم</i>
 </p>
