@@ -26,6 +26,7 @@ Also shipping:
 |---------|--------|
 | [ShipX](https://github.com/Mubder/ShipX) | AI delivery intelligence |
 | [KCA](https://github.com/Mubder/KCA) | Knowledge Capital Atlas — institutional engineering OS |
+| [IndexArc](https://github.com/Mubder/IndexArc) | Portable personal vault — multi-extract secrets, AR/EN ask, USB-safe |
 | [KazmaAI](https://github.com/Mubder/KazmaAI) | kazma.ai product site (Astro) |
 
 ---
