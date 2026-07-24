@@ -10,6 +10,7 @@ Building production-grade autonomous AI agent systems. Arabic-native (**كاظم
 **[Kazma (كاظمه)](https://github.com/Mubder/kazma)** — Multi-platform AI agent framework
 
 > Latin: **Kazma** · Arabic: **كاظمه** / **كاظمة** · never «كازما»
+> Name comes from ancient Kuwait, an important trade hub and oasis network. Notable for the Battle of Chains (633 CE), where strategic coordination led to breaking a strong defense through decentralized maneuvers.
 
 - **LangGraph supervisor** — ReAct tools loop, SQLite checkpoints, context compaction, per-turn RAG
 - **Swarm orchestration** — multi-worker dispatch, pipelines, circuit breakers, reliability registry
