@@ -1,6 +1,6 @@
 # 👋 Mubder Alfaris
 
-**Founder & Lead Architect @ [KazmaAI](https://github.com/KazmaAI)**  
+**Founder & Lead Architect @ [Kazma.ai](https://kazma.ai/)**  
 Building production-grade autonomous AI agent systems. Arabic-native (**كاظمه**), MIT-licensed, durable by design.
 
 ---
