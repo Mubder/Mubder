@@ -38,16 +38,23 @@ Project | Focus
 
 ### 🛠 Tech Stack
 
+**Core** &nbsp;
 <img src="https://img.shields.io/badge/Python_3.11+-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/LangGraph-1C3C4C?style=flat&logo=langchain&logoColor=white" alt="LangGraph">
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI">
+<img src="https://img.shields.io/badge/Ruff-D7F664?style=flat&logo=ruff&logoColor=black" alt="Ruff">
+
+**Data** &nbsp;
 <img src="https://img.shields.io/badge/SQLite_WAL-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQLite WAL">
 <img src="https://img.shields.io/badge/Postgres-4169E1?style=flat&logo=postgresql&logoColor=white" alt="Postgres">
 <img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat&logoColor=white" alt="ChromaDB">
-<img src="https://img.shields.io/badge/Textual_TUI-7A3E9E?style=flat&logoColor=white" alt="Textual TUI">
+
+**Infra & UI** &nbsp;
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/Textual_TUI-7A3E9E?style=flat&logoColor=white" alt="Textual TUI">
+
+**Platforms** &nbsp;
 <img src="https://img.shields.io/badge/Telegram_Discord_Slack-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram/Discord/Slack">
-<img src="https://img.shields.io/badge/Ruff-D7F664?style=flat&logo=ruff&logoColor=black" alt="Ruff">
 
 ### 📊 Focus right now
 
