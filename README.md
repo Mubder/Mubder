@@ -22,10 +22,11 @@
 
 I'm a Systems Architect and Software Engineer passionate about **agentic AI architectures, autonomous swarms, cognitive memory systems**, and multi-platform software.
 
-- 🧠 **Creator of Kazma**: Designed and built the Kazma Multi-Agent Framework from the ground up (~159K LOC, 4,360+ tests, solo-architected).
+- 🧠 **Creator of Kazma**: Designed and built the Kazma Multi-Agent Framework from the ground up (~237K LOC, 850+ Python modules, solo-architected).
 - 🧬 **Pure V2 Cognitive Memory**: Architected Kazma's single-source-of-truth memory engine — featuring bi-temporal belief stores (`valid_from` / `valid_until`), Local Ego-Graph Personalized PageRank (PPR), Laplace-smoothed procedural action DAGs, and prompt-fenced per-turn context injection.
 - 🐝 **Dynamic Swarm Autoscaler**: Built dynamic worker templates and best-model-per-task auto-routing (coding, reasoning, vision) for zero-configuration swarm execution.
-- 🛡️ **Safety & Reliability**: Engineered triple-wired Human-In-The-Loop (HITL) safety gates, prompt-fenced Soul evolution deltas, and self-healing circuit breakers.
+- 🛡️ **Safety & Reliability**: Engineered triple-wired Human-In-The-Loop (HITL) safety gates with task-scoped approval grants, prompt-fenced Soul evolution deltas, and self-healing circuit breakers with compaction-aware reset.
+- 📄 **Document Intelligence**: Full document processing stack — read/parse PDF/DOCX/XLSX/PPTX, OCR scanned documents, merge/split/redact, format conversion, and PowerPoint generation with per-paragraph RTL/LTR direction detection.
 - 🌐 **Arabic-Native AI**: Spearheaded dialect formalization, custom tokenization, and cultural protocol alignment (Kuwaiti & Gulf dialects) for enterprise LLMs.
 
 ---
@@ -41,19 +42,22 @@ I'm a Systems Architect and Software Engineer passionate about **agentic AI arch
 
 | Metric | Details |
 |---|---|
-| **Codebase Size** | ~159,000 Lines of Python, JS/CSS, & Shell |
-| **Test Suite** | 4,360+ Automated Tests Passing (Zero Regressions) |
+| **Codebase Size** | ~237,000 Lines of Python, JS/CSS, & Shell |
+| **Modules** | 850+ Python Files Across 6 Packages |
 | **Architecture** | LangGraph Supervisor + Swarm Autoscaler + Pure V2 Memory + Dual Web/TUI IDE |
 | **Multi-Platform** | Web UI, TUI, CLI, Telegram, Discord, Slack |
+| **Databases** | SQLite WAL + PostgreSQL + Neo4j + ChromaDB |
 
-#### 🌟 Recent Features & Breakthroughs
-* **Pure V2 Cognitive Memory Engine**: Fully migrated to Memory V2 as the single source of truth. Features bi-temporal belief tracking, RRF episode retrieval, Local Ego-Graph PPR, and Laplace confidence-smoothed action DAGs $C(d) = \frac{S+1}{N+2}$.
-* **Dynamic Swarm Autoscaler**: Auto-spawns specialist workers from templates (`coder`, `researcher`, `generalist`) with automatic best-model-per-task prompt classification.
-* **Pluggable Scraping Proxy Engine**: Rotating residential/mobile proxy provider (`anyip.io`) with automatic 429/403 backoff retries and user-agent pool rotation.
-* **Prompt-Fenced Soul Engine**: System-prompt refinements (Soul deltas) are persisted to `ConfigStore` and wrapped in `<kazma:data untrusted>` fences to prevent prompt injection.
-* **Time-Travel Replay & Branching**: Snapshot recorder captures supervisor states to SQLite WAL (`snapshots.db`), allowing in-place rewinds (`/replay`) and thread branching (`/fork`).
-* **Vision Capability Router**: Intelligently routes vision tasks based on model capabilities, protecting text-only models (like DeepSeek) and auto-selecting vision models.
-* **Nightly Automated Memory Backups**: Background schedulers run 24-hour native `sqlite3.backup()` routines and JSONL / GraphML snapshot dumps into `memory_ops.db`.
+#### 🌟 Recent Features & Capabilities
+* **Cross-Machine Migration System** — One-command `kazma migrate export|import` with vault-key pairing, automatic path translation across OSes, and Postgres `pg_dump`/`pg_restore` automation.
+* **Industry-Level Document Processing** — 9 document tools: read any format (PDF/DOCX/XLSX/PPTX), OCR scanned documents, merge/split/redact PDFs, fill forms, convert formats, generate PowerPoint, with auto-parsing of uploaded attachments.
+* **Pure V2 Cognitive Memory Engine** — Bi-temporal belief tracking, RRF episode retrieval, Local Ego-Graph PPR, and Laplace confidence-smoothed action DAGs. Multi-tenant safe with per-tenant schedulers.
+* **Lifecycle Status Notifications** — Real-time 🔵🟢🟡🔴 server status alerts to Telegram/Discord/Slack with automatic restart detection.
+* **Task-Scoped HITL Approval** — One-click "Approve for task" eliminates approval-card spam for multi-step operations. Auto-clears on next message.
+* **Dynamic Swarm Autoscaler** — Auto-spawns specialist workers from templates with automatic best-model-per-task prompt classification.
+* **Time-Travel Replay & Branching** — Snapshot recorder captures supervisor states, allowing in-place rewinds (`/replay`) and thread branching (`/fork`).
+* **Vision Capability Router** — Intelligently routes vision tasks based on model capabilities, protecting text-only models and auto-selecting vision models.
+* **Prompt-Fenced Soul Engine** — System-prompt refinements persisted to ConfigStore and wrapped in `<kazma:data untrusted>` fences to prevent prompt injection.
 
 ---
 
@@ -65,8 +69,9 @@ I'm a Systems Architect and Software Engineer passionate about **agentic AI arch
 |---|---|
 | **Languages & Runtimes** | `Python 3.11+` • `TypeScript` • `JavaScript (ES6+)` • `SQL` • `PowerShell / Bash` |
 | **AI & Agentic Frameworks** | `LangGraph` • `OpenAI API` • `Anthropic Claude` • `Google Gemini` • `DeepSeek` • `MCP` |
-| **Memory & Search Engines** | `SQLite-vec` • `FTS5` • `Bi-Temporal Graph` • `PPR Graph` • `Reciprocal Rank Fusion` |
-| **Backend & Infrastructure** | `FastAPI` • `Uvicorn` • `AsyncIO` • `PostgreSQL` • `SQLite WAL` • `Docker` • `uv` |
+| **Memory & Search Engines** | `SQLite-vec` • `FTS5` • `Bi-Temporal Graph` • `PPR Graph` • `Neo4j` • `ChromaDB` |
+| **Backend & Infrastructure** | `FastAPI` • `Uvicorn` • `AsyncIO` • `PostgreSQL` • `SQLite WAL` • `Docker` • `Cloudflare Tunnels` |
+| **Document Processing** | `reportlab` • `python-docx` • `pdfplumber` • `pypdf` • `python-pptx` • `Tesseract OCR` • `WeasyPrint` |
 | **Frontend & Interfaces** | `Vanilla CSS (Modern/Dark)` • `Alpine.js` • `HTML5 Canvas` • `Textual TUI` |
 
 </div>
@@ -88,6 +93,7 @@ I'm a Systems Architect and Software Engineer passionate about **agentic AI arch
 
 - 🐙 **GitHub Profile**: [@Mubder](https://github.com/Mubder)
 - 📦 **Kazma Repository**: [Mubder/kazma](https://github.com/Mubder/kazma)
+- 🌐 **Website**: [kazma.ai](https://kazma.ai)
 - 💬 **Ask me about**: Agentic AI architecture, cognitive memory graphs, LangGraph, Python performance & multi-agent swarms.
 
 <div align="center">
