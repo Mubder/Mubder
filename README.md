@@ -22,11 +22,11 @@
 
 I'm a Systems Architect and Software Engineer passionate about **agentic AI architectures, autonomous swarms, cognitive memory systems**, and multi-platform software.
 
-- 🧠 **Creator of Kazma**: Designed and built the Kazma Multi-Agent Framework from the ground up (~237K LOC, 850+ Python modules, solo-architected).
+- 🧠 **Creator of Kazma**: Designed and built the Kazma Multi-Agent Framework from the ground up (~248K LOC, 894 Python modules, 4,319 tests, solo-architected).
+- 🛡️ **Non-Stop Execution & Self-Healing Engine**: Engineered `supervised_invoke()` watchdog execution for node heartbeat tracking, stall detection, automatic checkpoint rollback, reflection injection, model failover chains, and durable LLM call ledgers.
 - 🧬 **Pure V2 Cognitive Memory**: Architected Kazma's single-source-of-truth memory engine — featuring bi-temporal belief stores (`valid_from` / `valid_until`), Local Ego-Graph Personalized PageRank (PPR), Laplace-smoothed procedural action DAGs, and prompt-fenced per-turn context injection.
 - 🐝 **Dynamic Swarm Autoscaler**: Built dynamic worker templates and best-model-per-task auto-routing (coding, reasoning, vision) for zero-configuration swarm execution.
-- 🛡️ **Safety & Reliability**: Engineered triple-wired Human-In-The-Loop (HITL) safety gates with task-scoped approval grants, prompt-fenced Soul evolution deltas, and self-healing circuit breakers with compaction-aware reset.
-- 📄 **Document Intelligence**: Full document processing stack — read/parse PDF/DOCX/XLSX/PPTX, OCR scanned documents, merge/split/redact, format conversion, and PowerPoint generation with per-paragraph RTL/LTR direction detection.
+- 🔒 **Safety & Reliability**: Engineered triple-wired Human-In-The-Loop (HITL) safety gates with task-scoped approval grants, prompt-fenced Soul evolution deltas, and self-healing circuit breakers with compaction-aware reset.
 - 🌐 **Arabic-Native AI**: Spearheaded dialect formalization, custom tokenization, and cultural protocol alignment (Kuwaiti & Gulf dialects) for enterprise LLMs.
 
 ---
@@ -42,17 +42,18 @@ I'm a Systems Architect and Software Engineer passionate about **agentic AI arch
 
 | Metric | Details |
 |---|---|
-| **Codebase Size** | ~237,000 Lines of Python, JS/CSS, & Shell |
-| **Modules** | 850+ Python Files Across 6 Packages |
-| **Architecture** | LangGraph Supervisor + Swarm Autoscaler + Pure V2 Memory + Dual Web/TUI IDE |
+| **Codebase Size** | ~248,000 Lines of Python (~271K Total across Python, JS, HTML, CSS, Shell) |
+| **Modules & Tests** | 894 Python Files Across 7 Packages • 4,319 Automated Tests |
+| **Architecture** | LangGraph Supervisor + Non-Stop Engine + Swarm Autoscaler + V2 Memory + Dual Web/TUI IDE |
 | **Multi-Platform** | Web UI, TUI, CLI, Telegram, Discord, Slack |
-| **Databases** | SQLite WAL + PostgreSQL + Neo4j + ChromaDB |
+| **Databases** | SQLite WAL + PostgreSQL + Neo4j + ChromaDB + sqlite-vec |
 
 #### 🌟 Recent Features & Capabilities
+* **Non-Stop Execution & Self-Healing Engine** — Heartbeat watchdog, stall detection timeouts, automatic checkpoint state rollback, reflection injection (`[KAZMA RECOVERY]`), model failover chain with provider cooldowns, and SQLite LLM Call Ledger (`llm_calls.db`).
+* **Scraper Hardening & Truncation Auto-Retry** — 5 MB streaming byte limits (`KAZMA_FETCH_MAX_BYTES`), binary payload gates, exponential 5xx retry loop, `robots.txt` compliance, single transparent retry with doubled `max_tokens` on `finish_reason='length'`, and chunked `file_append`.
 * **Cross-Machine Migration System** — One-command `kazma migrate export|import` with vault-key pairing, automatic path translation across OSes, and Postgres `pg_dump`/`pg_restore` automation.
 * **Industry-Level Document Processing** — 9 document tools: read any format (PDF/DOCX/XLSX/PPTX), OCR scanned documents, merge/split/redact PDFs, fill forms, convert formats, generate PowerPoint, with auto-parsing of uploaded attachments.
 * **Pure V2 Cognitive Memory Engine** — Bi-temporal belief tracking, RRF episode retrieval, Local Ego-Graph PPR, and Laplace confidence-smoothed action DAGs. Multi-tenant safe with per-tenant schedulers.
-* **Lifecycle Status Notifications** — Real-time 🔵🟢🟡🔴 server status alerts to Telegram/Discord/Slack with automatic restart detection.
 * **Task-Scoped HITL Approval** — One-click "Approve for task" eliminates approval-card spam for multi-step operations. Auto-clears on next message.
 * **Dynamic Swarm Autoscaler** — Auto-spawns specialist workers from templates with automatic best-model-per-task prompt classification.
 * **Time-Travel Replay & Branching** — Snapshot recorder captures supervisor states, allowing in-place rewinds (`/replay`) and thread branching (`/fork`).
