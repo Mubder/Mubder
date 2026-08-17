@@ -70,12 +70,12 @@ I am a Systems Architect and Software Engineer dedicated to solving the hard rel
 
 ---
 
-### 📊 GitHub Activity & Statistics
+### 📊 GitHub Activity & Streak
 
 <div align="center">
 
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Mubder&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Mubder's GitHub Stats" width="48%">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Mubder&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%">
+  <img src="https://streak-stats.demolab.com/?user=Mubder&theme=tokyonight&hide_border=true" alt="Mubder's GitHub Streak" width="48%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mubder&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Activity Graph" width="48%">
 
 </div>
 
