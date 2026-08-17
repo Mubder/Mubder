@@ -1,16 +1,17 @@
 <div align="center">
 
   <h1>👋 Hi, I'm Mubder Alfaris</h1>
-  <h3>Creator & Lead Architect of Kazma Agent Framework</h3>
+  <h3>Founder & Lead Systems Architect · Kazma Agent Framework</h3>
 
   <p>
-    Building production-grade multi-agent AI systems, bi-temporal cognitive memory engines,<br>
-    cross-platform swarm orchestration, and Arabic-native LLM intelligence.
+    Architecting production-grade autonomous multi-agent systems, bi-temporal cognitive memory graphs,<br>
+    distributed swarm orchestration, and Arabic-native LLM intelligence.
   </p>
 
   <p>
-    <a href="https://github.com/Mubder/kazma"><img src="https://img.shields.io/badge/Featured%20Project-Kazma%20Framework-6366f1?style=for-the-badge&logo=python&logoColor=white" alt="Kazma Agent Framework"></a>
-    <a href="https://github.com/Mubder"><img src="https://img.shields.io/github/followers/Mubder?style=for-the-badge&color=00d26a&logo=github" alt="GitHub Followers"></a>
+    <a href="https://github.com/Mubder/kazma"><img src="https://img.shields.io/badge/Featured%20System-Kazma%20Framework-6366f1?style=for-the-badge&logo=python&logoColor=white" alt="Kazma Agent Framework"></a>
+    <a href="https://kazma.ai"><img src="https://img.shields.io/badge/Website-kazma.ai-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Kazma Website"></a>
+    <a href="https://github.com/Mubder"><img src="https://img.shields.io/github/followers/Mubder?style=for-the-badge&color=10B981&logo=github" alt="GitHub Followers"></a>
     <a href="https://github.com/Mubder/kazma/stargazers"><img src="https://img.shields.io/github/stars/Mubder/kazma?style=for-the-badge&color=ffb703&logo=github" alt="Kazma Stars"></a>
   </p>
 
@@ -18,68 +19,58 @@
 
 ---
 
-### 🚀 About Me
+### 🚀 About Me & Architectural Focus
 
-I'm a Systems Architect and Software Engineer passionate about **agentic AI architectures, autonomous swarms, cognitive memory systems**, and multi-platform software.
+I am a Systems Architect and Software Engineer dedicated to solving the hard reliability, memory, and orchestration problems in autonomous AI agent systems.
 
-- 🧠 **Creator of Kazma**: Designed and built the Kazma Multi-Agent Framework from the ground up (~248K LOC, 894 Python modules, 4,319 tests, solo-architected).
-- 🛡️ **Non-Stop Execution & Self-Healing Engine**: Engineered `supervised_invoke()` watchdog execution for node heartbeat tracking, stall detection, automatic checkpoint rollback, reflection injection, model failover chains, and durable LLM call ledgers.
-- 🧬 **Pure V2 Cognitive Memory**: Architected Kazma's single-source-of-truth memory engine — featuring bi-temporal belief stores (`valid_from` / `valid_until`), Local Ego-Graph Personalized PageRank (PPR), Laplace-smoothed procedural action DAGs, and prompt-fenced per-turn context injection.
-- 🐝 **Dynamic Swarm Autoscaler**: Built dynamic worker templates and best-model-per-task auto-routing (coding, reasoning, vision) for zero-configuration swarm execution.
-- 🔒 **Safety & Reliability**: Engineered triple-wired Human-In-The-Loop (HITL) safety gates with task-scoped approval grants, prompt-fenced Soul evolution deltas, and self-healing circuit breakers with compaction-aware reset.
-- 🌐 **Arabic-Native AI**: Spearheaded dialect formalization, custom tokenization, and cultural protocol alignment (Kuwaiti & Gulf dialects) for enterprise LLMs.
+- 🧠 **Architect of Kazma**: Built the full-stack Kazma Multi-Agent Framework (~315K LOC across Python, JavaScript, and HTML/CSS, with **5,608 automated tests** and **2,430+ commits**).
+- 🧬 **Pure V2 Cognitive Memory**: Designed a single-source-of-truth memory engine featuring bi-temporal belief tracking (`valid_from` / `valid_until`), Local Ego-Graph Personalized PageRank (PPR), dense/sparse episode fusion (FTS5 + `sqlite-vec`), and 24-hour automated consolidation.
+- 🐝 **Dynamic Swarm Autoscaler**: Engineered zero-configuration multi-agent swarms with 6 dispatch patterns (`fan-out`, `pipeline`, `consult`, `broadcast`, `conditional`, `dispatch`) and best-model-per-task routing for coding, reasoning, and vision.
+- 🛡️ **Non-Stop Execution & Self-Healing**: Created the `supervised_invoke()` watchdog execution engine for heartbeat tracking, stall detection, automatic checkpoint state rollback, reflection injection (`[KAZMA RECOVERY]`), and multi-provider failover chains.
+- 🔒 **Triple-Wired HITL Safety**: Engineered fail-closed Human-In-The-Loop safety gates across graph interrupts, multi-platform swarm buses, and pipeline checkpoints, with prompt-fenced untrusted boundaries (`<kazma:data untrusted>`).
+- 🌐 **Arabic-Native AI**: Spearheaded custom dialect formalization, Arabic tokenization, and the Majlis cultural protocol (Kuwaiti & Gulf dialects) for enterprise LLMs.
 
 ---
 
-### ⚡ Featured Project: Kazma Agent Framework
+### ⚡ Featured Systems & Projects
 
-> **Production-Grade Autonomous Agents with Deep Multilingual Intelligence**  
-> 🔗 **Repository**: [github.com/Mubder/kazma](https://github.com/Mubder/kazma)
+#### 🌟 [Kazma Agent Framework](https://github.com/Mubder/kazma)
+> **Production-Grade Autonomous Multi-Agent Framework with Deep Cognitive Memory & Swarm Intelligence**  
+> 🔗 **Website**: [kazma.ai](https://kazma.ai) · **Repository**: [github.com/Mubder/kazma](https://github.com/Mubder/kazma)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Mubder/kazma/main/kazma-ui/kazma_ui/static/img/kazma-logo.png" alt="Kazma Logo" height="70">
-</p>
-
-| Metric | Details |
+| Core Dimension | Architecture & Implementation |
 |---|---|
-| **Codebase Size** | ~248,000 Lines of Python (~271K Total across Python, JS, HTML, CSS, Shell) |
-| **Modules & Tests** | 894 Python Files Across 7 Packages • 4,319 Automated Tests |
-| **Architecture** | LangGraph Supervisor + Non-Stop Engine + Swarm Autoscaler + V2 Memory + Dual Web/TUI IDE |
-| **Multi-Platform** | Web UI, TUI, CLI, Telegram, Discord, Slack |
-| **Databases** | SQLite WAL + PostgreSQL + Neo4j + ChromaDB + sqlite-vec |
+| **Codebase Volume** | ~315,000 Total Lines (~252K Python code + 28K JS across 7 packages) |
+| **Test Coverage** | 5,608 Automated Tests Across 394 Test Suites |
+| **Core Engine** | LangGraph Supervisor + Non-Stop Watchdog + Swarm Autoscaler + V2 Cognitive Memory |
+| **Interfaces** | Observability Control Plane, Web IDE, Textual TUI, CLI, Telegram, Discord, Slack |
+| **Storage & Graph** | SQLite WAL + PostgreSQL + Neo4j + ChromaDB + `sqlite-vec` |
 
-#### 🌟 Recent Features & Capabilities
-* **Non-Stop Execution & Self-Healing Engine** — Heartbeat watchdog, stall detection timeouts, automatic checkpoint state rollback, reflection injection (`[KAZMA RECOVERY]`), model failover chain with provider cooldowns, and SQLite LLM Call Ledger (`llm_calls.db`).
-* **Scraper Hardening & Truncation Auto-Retry** — 5 MB streaming byte limits (`KAZMA_FETCH_MAX_BYTES`), binary payload gates, exponential 5xx retry loop, `robots.txt` compliance, single transparent retry with doubled `max_tokens` on `finish_reason='length'`, and chunked `file_append`.
-* **Cross-Machine Migration System** — One-command `kazma migrate export|import` with vault-key pairing, automatic path translation across OSes, and Postgres `pg_dump`/`pg_restore` automation.
-* **Industry-Level Document Processing** — 9 document tools: read any format (PDF/DOCX/XLSX/PPTX), OCR scanned documents, merge/split/redact PDFs, fill forms, convert formats, generate PowerPoint, with auto-parsing of uploaded attachments.
-* **Pure V2 Cognitive Memory Engine** — Bi-temporal belief tracking, RRF episode retrieval, Local Ego-Graph PPR, and Laplace confidence-smoothed action DAGs. Multi-tenant safe with per-tenant schedulers.
-* **Task-Scoped HITL Approval** — One-click "Approve for task" eliminates approval-card spam for multi-step operations. Auto-clears on next message.
-* **Dynamic Swarm Autoscaler** — Auto-spawns specialist workers from templates with automatic best-model-per-task prompt classification.
-* **Time-Travel Replay & Branching** — Snapshot recorder captures supervisor states, allowing in-place rewinds (`/replay`) and thread branching (`/fork`).
-* **Vision Capability Router** — Intelligently routes vision tasks based on model capabilities, protecting text-only models and auto-selecting vision models.
-* **Prompt-Fenced Soul Engine** — System-prompt refinements persisted to ConfigStore and wrapped in `<kazma:data untrusted>` fences to prevent prompt injection.
+#### 📦 Ecosystem Projects Built Alongside Kazma
+- **[IndexArc](https://github.com/Mubder/IndexArc)** — Portable personal vault for secrets, API keys, and private knowledge with local (Ollama) and cloud AI backends.
+- **ShipX** — Autonomous AI logistics and delivery platform operating via WhatsApp with natural Khaleeji voice and text processing.
+- **KCA** — Institutional Intelligence System designed across five core tiers: Genesis, OS, Guardian, Network, and Evolution.
 
 ---
 
-### 🛠️ Tech Stack & Expertise
+### 🛠️ Technical Stack & Domain Expertise
 
 <div align="center">
 
-| Domain | Technologies |
+| Domain | Technologies & Infrastructure |
 |---|---|
-| **Languages & Runtimes** | `Python 3.11+` • `TypeScript` • `JavaScript (ES6+)` • `SQL` • `PowerShell / Bash` |
-| **AI & Agentic Frameworks** | `LangGraph` • `OpenAI API` • `Anthropic Claude` • `Google Gemini` • `DeepSeek` • `MCP` |
-| **Memory & Search Engines** | `SQLite-vec` • `FTS5` • `Bi-Temporal Graph` • `PPR Graph` • `Neo4j` • `ChromaDB` |
-| **Backend & Infrastructure** | `FastAPI` • `Uvicorn` • `AsyncIO` • `PostgreSQL` • `SQLite WAL` • `Docker` • `Cloudflare Tunnels` |
-| **Document Processing** | `reportlab` • `python-docx` • `pdfplumber` • `pypdf` • `python-pptx` • `Tesseract OCR` • `WeasyPrint` |
-| **Frontend & Interfaces** | `Vanilla CSS (Modern/Dark)` • `Alpine.js` • `HTML5 Canvas` • `Textual TUI` |
+| **Languages & Runtimes** | `Python 3.11+` • `TypeScript` • `JavaScript (ES6+)` • `SQL` • `PowerShell` • `Bash` |
+| **AI & Agentic Systems** | `LangGraph` • `OpenAI API` • `Anthropic Claude` • `Google Gemini` • `DeepSeek` • `MCP` |
+| **Memory & Graph Engines** | `SQLite-vec` • `FTS5` • `Bi-Temporal Knowledge Graphs` • `PPR Graphs` • `Neo4j` • `ChromaDB` |
+| **Backend & Infrastructure** | `FastAPI` • `Uvicorn` • `AsyncIO` • `PostgreSQL` • `SQLite WAL` • `Docker` • `Cloudflare` |
+| **Document Intelligence** | `reportlab` • `python-docx` • `pdfplumber` • `pypdf` • `python-pptx` • `Tesseract OCR` • `WeasyPrint` |
+| **Interfaces & Tooling** | `Vanilla CSS (Modern Dark)` • `Alpine.js` • `Textual TUI` • `HTML5 Canvas` |
 
 </div>
 
 ---
 
-### 📊 GitHub Statistics
+### 📊 GitHub Activity & Statistics
 
 <div align="center">
 
@@ -90,12 +81,12 @@ I'm a Systems Architect and Software Engineer passionate about **agentic AI arch
 
 ---
 
-### 📫 Connect & Links
+### 📫 Connect & Inquiries
 
-- 🐙 **GitHub Profile**: [@Mubder](https://github.com/Mubder)
-- 📦 **Kazma Repository**: [Mubder/kazma](https://github.com/Mubder/kazma)
 - 🌐 **Website**: [kazma.ai](https://kazma.ai)
-- 💬 **Ask me about**: Agentic AI architecture, cognitive memory graphs, LangGraph, Python performance & multi-agent swarms.
+- 🐙 **GitHub Profile**: [@Mubder](https://github.com/Mubder)
+- 📦 **Kazma Framework**: [Mubder/kazma](https://github.com/Mubder/kazma)
+- 📧 **Inquiries & Collaborations**: [admin@kazma.ai](mailto:admin@kazma.ai)
 
 <div align="center">
   <sub>Designed & engineered by <b>Mubder Alfaris</b> — Built in Kuwait 🇰🇼</sub>
