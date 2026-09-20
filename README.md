@@ -23,7 +23,7 @@
 
 I am a Systems Architect and Software Engineer dedicated to solving the hard reliability, memory, and orchestration problems in autonomous AI agent systems.
 
-- 🧠 **Architect of Kazma**: Built the full-stack Kazma Multi-Agent Framework (~315K LOC across Python, JavaScript, and HTML/CSS, with **5,608 automated tests** and **2,430+ commits**).
+- 🧠 **Architect of Kazma**: Built the full-stack Kazma Multi-Agent Framework (~490K LOC across Python, JavaScript, and HTML/CSS, with **9,585 automated tests · 0 failures** and **3,628+ commits**).
 - 🧬 **Pure V2 Cognitive Memory**: Designed a single-source-of-truth memory engine featuring bi-temporal belief tracking (`valid_from` / `valid_until`), Local Ego-Graph Personalized PageRank (PPR), dense/sparse episode fusion (FTS5 + `sqlite-vec`), and 24-hour automated consolidation.
 - 🐝 **Dynamic Swarm Autoscaler**: Engineered zero-configuration multi-agent swarms with 6 dispatch patterns (`fan-out`, `pipeline`, `consult`, `broadcast`, `conditional`, `dispatch`) and best-model-per-task routing for coding, reasoning, and vision.
 - 🛡️ **Non-Stop Execution & Self-Healing**: Created the `supervised_invoke()` watchdog execution engine for heartbeat tracking, stall detection, automatic checkpoint state rollback, reflection injection (`[KAZMA RECOVERY]`), and multi-provider failover chains.
@@ -40,8 +40,8 @@ I am a Systems Architect and Software Engineer dedicated to solving the hard rel
 
 | Core Dimension | Architecture & Implementation |
 |---|---|
-| **Codebase Volume** | ~315,000 Total Lines (~252K Python code + 28K JS across 7 packages) |
-| **Test Coverage** | 5,608 Automated Tests Across 394 Test Suites |
+| **Codebase Volume** | ~490,000 Total Lines (~360K Python code + 39K JS across 7 packages) |
+| **Test Coverage** | 9,585 Automated Tests (24 skipped · 3 xfailed · 0 failures) Across 642 Test Suites |
 | **Core Engine** | LangGraph Supervisor + Non-Stop Watchdog + Swarm Autoscaler + V2 Cognitive Memory |
 | **Interfaces** | Observability Control Plane, Web IDE, Textual TUI, CLI, Telegram, Discord, Slack |
 | **Storage & Graph** | SQLite WAL + PostgreSQL + Neo4j + ChromaDB + `sqlite-vec` |
