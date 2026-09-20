@@ -75,7 +75,7 @@ I am a Systems Architect and Software Engineer dedicated to solving the hard rel
 <div align="center">
 
   <img src="https://streak-stats.demolab.com/?user=Mubder&theme=tokyonight&hide_border=true" alt="Mubder's GitHub Streak" width="48%">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mubder&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Activity Graph" width="48%">
+  <img src="https://ghchart.rshah.org/06b6d4/Mubder" alt="Mubder's GitHub Contribution Chart" width="48%">
 
 </div>
 
