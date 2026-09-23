@@ -4,7 +4,8 @@
 
 **Founder of [KazmaAI](https://kazma.ai) · I build self-hosted AI agents that ask before they act and tell the truth when they fail.**
 
-Kuwait 🇰🇼 · [kazma.ai](https://kazma.ai) · [admin@kazma.ai](mailto:admin@kazma.ai) · [@b_alfaris](https://x.com/b_alfaris)
+Kuwait 🇰🇼 · [kazma.ai](https://kazma.ai) · [admin@kazma.ai](mailto:admin@kazma.ai)<br>
+X: [@KazmaAI](https://x.com/KazmaAI) · [@b_alfaris](https://x.com/b_alfaris) (personal)
 
 <a href="https://github.com/Mubder/kazma"><img src="https://img.shields.io/github/stars/Mubder/kazma?style=flat-square&label=kazma%20stars&color=6366F1&logo=github" alt="Kazma stars"></a>
 <a href="https://github.com/Mubder/kazma/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Mubder/kazma/ci.yml?branch=main&style=flat-square&label=kazma%20CI&logo=githubactions&logoColor=white" alt="Kazma CI"></a>
@@ -68,4 +69,5 @@ Slack.
 ## Contact
 
 Pilots, partnerships and collaboration: [admin@kazma.ai](mailto:admin@kazma.ai).
+On X: [@KazmaAI](https://x.com/KazmaAI) for Kazma, [@b_alfaris](https://x.com/b_alfaris) personally.
 Security reports for Kazma: [private advisory](https://github.com/Mubder/kazma/security/advisories/new).
