@@ -1,93 +1,71 @@
 <div align="center">
 
-  <h1>👋 Hi, I'm Mubder Alfaris</h1>
-  <h3>Founder & Lead Systems Architect · Kazma Agent Framework</h3>
+# Mubder Alfaris
 
-  <p>
-    Architecting production-grade autonomous multi-agent systems, bi-temporal cognitive memory graphs,<br>
-    distributed swarm orchestration, and Arabic-native LLM intelligence.
-  </p>
+**Founder of [KazmaAI](https://kazma.ai) · I build self-hosted AI agents that ask before they act and tell the truth when they fail.**
 
-  <p>
-    <a href="https://github.com/Mubder/kazma"><img src="https://img.shields.io/badge/Featured%20System-Kazma%20Framework-6366f1?style=for-the-badge&logo=python&logoColor=white" alt="Kazma Agent Framework"></a>
-    <a href="https://kazma.ai"><img src="https://img.shields.io/badge/Website-kazma.ai-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Kazma Website"></a>
-    <a href="https://github.com/Mubder"><img src="https://img.shields.io/github/followers/Mubder?style=for-the-badge&color=10B981&logo=github" alt="GitHub Followers"></a>
-    <a href="https://github.com/Mubder/kazma/stargazers"><img src="https://img.shields.io/github/stars/Mubder/kazma?style=for-the-badge&color=ffb703&logo=github" alt="Kazma Stars"></a>
-  </p>
+Kuwait 🇰🇼 · [kazma.ai](https://kazma.ai) · [admin@kazma.ai](mailto:admin@kazma.ai) · [@b_alfaris](https://x.com/b_alfaris)
+
+<a href="https://github.com/Mubder/kazma"><img src="https://img.shields.io/github/stars/Mubder/kazma?style=flat-square&label=kazma%20stars&color=6366F1&logo=github" alt="Kazma stars"></a>
+<a href="https://github.com/Mubder/kazma/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Mubder/kazma/ci.yml?branch=main&style=flat-square&label=kazma%20CI&logo=githubactions&logoColor=white" alt="Kazma CI"></a>
+<a href="https://github.com/Mubder?tab=followers"><img src="https://img.shields.io/github/followers/Mubder?style=flat-square&color=10B981&logo=github" alt="Followers"></a>
 
 </div>
 
 ---
 
-### 🚀 About Me & Architectural Focus
+## What I work on
 
-I am a Systems Architect and Software Engineer dedicated to solving the hard reliability, memory, and orchestration problems in autonomous AI agent systems.
+I design and build autonomous AI agent systems, with a focus on the parts
+that decide whether an agent can be trusted in daily use: human approval
+before risky actions, long-term memory that can be inspected and corrected,
+reliability under failure, and Arabic-native interaction.
 
-- 🧠 **Architect of Kazma**: Built the full-stack Kazma Multi-Agent Framework (~490K LOC across Python, JavaScript, and HTML/CSS, with **9,585 automated tests · 0 failures** and **3,628+ commits**).
-- 🧬 **Pure V2 Cognitive Memory**: Designed a single-source-of-truth memory engine featuring bi-temporal belief tracking (`valid_from` / `valid_until`), Local Ego-Graph Personalized PageRank (PPR), dense/sparse episode fusion (FTS5 + `sqlite-vec`), and 24-hour automated consolidation.
-- 🐝 **Dynamic Swarm Autoscaler**: Engineered zero-configuration multi-agent swarms with 6 dispatch patterns (`fan-out`, `pipeline`, `consult`, `broadcast`, `conditional`, `dispatch`) and best-model-per-task routing for coding, reasoning, and vision.
-- 🛡️ **Non-Stop Execution & Self-Healing**: Created the `supervised_invoke()` watchdog execution engine for heartbeat tracking, stall detection, automatic checkpoint state rollback, reflection injection (`[KAZMA RECOVERY]`), and multi-provider failover chains.
-- 🔒 **Triple-Wired HITL Safety**: Engineered fail-closed Human-In-The-Loop safety gates across graph interrupts, multi-platform swarm buses, and pipeline checkpoints, with prompt-fenced untrusted boundaries (`<kazma:data untrusted>`).
-- 🌐 **Arabic-Native AI**: Spearheaded custom dialect formalization, Arabic tokenization, and the Majlis cultural protocol (Kuwaiti & Gulf dialects) for enterprise LLMs.
+I prefer measurement to claims. Kazma publishes its prompt-injection results
+on a public benchmark — including the results that don't flatter it — and
+keeps a dated list of its own known weaknesses.
 
----
+## Featured
 
-### ⚡ Featured Systems & Projects
+### [Kazma](https://github.com/Mubder/kazma) — self-hosted AI agent framework
 
-#### 🌟 [Kazma Agent Framework](https://github.com/Mubder/kazma)
-> **Production-Grade Autonomous Multi-Agent Framework with Deep Cognitive Memory & Swarm Intelligence**  
-> 🔗 **Website**: [kazma.ai](https://kazma.ai) · **Repository**: [github.com/Mubder/kazma](https://github.com/Mubder/kazma)
+One LangGraph supervisor reachable from Web, TUI, CLI, Telegram, Discord and
+Slack.
 
-| Core Dimension | Architecture & Implementation |
+- **Human-in-the-loop safety** — fail-closed approval on three independent
+  paths, and a commitment layer that checks intent against memory before acting.
+- **Cognitive memory** — bi-temporal beliefs, personalized-PageRank recall,
+  hybrid lexical and vector search, encrypted and restorable backups.
+- **Swarm orchestration** — six dispatch patterns, autoscaled workers and
+  per-worker circuit breakers.
+- **Document intelligence** — quarantined intake, sandboxed parsing and OCR,
+  and correct Arabic and mixed-direction rendering.
+- **Measured safety** — [prompt-injection results on AgentDojo](https://github.com/Mubder/kazma/blob/main/docs/INJECTION.md),
+  a [threat model](https://github.com/Mubder/kazma/blob/main/docs/THREAT_MODEL.md)
+  and [known gaps](https://github.com/Mubder/kazma/blob/main/docs/KNOWN_GAPS.md).
+
+`Python` · `LangGraph` · `FastAPI` · `PostgreSQL` · `SQLite` · `Textual` · `Alpine.js` — MIT licensed.
+
+### Also
+
+| Project | What it is |
 |---|---|
-| **Codebase Volume** | ~490,000 Total Lines (~360K Python code + 39K JS across 7 packages) |
-| **Test Coverage** | 9,585 Automated Tests (24 skipped · 3 xfailed · 0 failures) Across 642 Test Suites |
-| **Core Engine** | LangGraph Supervisor + Non-Stop Watchdog + Swarm Autoscaler + V2 Cognitive Memory |
-| **Interfaces** | Observability Control Plane, Web IDE, Textual TUI, CLI, Telegram, Discord, Slack |
-| **Storage & Graph** | SQLite WAL + PostgreSQL + Neo4j + ChromaDB + `sqlite-vec` |
+| [IndexArc](https://github.com/Mubder/IndexArc) | A portable personal vault for secrets, API keys and private knowledge, with local (Ollama) or cloud AI. TypeScript. |
+| [LFGSuite](https://github.com/Mubder/LFGSuite) | An all-in-one group-finder and Mythic+ companion addon for World of Warcraft. Lua. |
+| ShipX *(private)* | AI delivery platform that works over WhatsApp, with natural Khaleeji voice and text. |
+| KCA *(private)* | Knowledge Capital Atlas — an engineering operating system for institutional knowledge and decisions. |
 
-#### 📦 Ecosystem Projects Built Alongside Kazma
-- **[IndexArc](https://github.com/Mubder/IndexArc)** — Portable personal vault for secrets, API keys, and private knowledge with local (Ollama) and cloud AI backends.
-- **ShipX** — Autonomous AI logistics and delivery platform operating via WhatsApp with natural Khaleeji voice and text processing.
-- **KCA** — Institutional Intelligence System designed across five core tiers: Genesis, OS, Guardian, Network, and Evolution.
+## Toolbox
 
----
-
-### 🛠️ Technical Stack & Domain Expertise
-
-<div align="center">
-
-| Domain | Technologies & Infrastructure |
+| Area | Tools |
 |---|---|
-| **Languages & Runtimes** | `Python 3.11+` • `TypeScript` • `JavaScript (ES6+)` • `SQL` • `PowerShell` • `Bash` |
-| **AI & Agentic Systems** | `LangGraph` • `OpenAI API` • `Anthropic Claude` • `Google Gemini` • `DeepSeek` • `MCP` |
-| **Memory & Graph Engines** | `SQLite-vec` • `FTS5` • `Bi-Temporal Knowledge Graphs` • `PPR Graphs` • `Neo4j` • `ChromaDB` |
-| **Backend & Infrastructure** | `FastAPI` • `Uvicorn` • `AsyncIO` • `PostgreSQL` • `SQLite WAL` • `Docker` • `Cloudflare` |
-| **Document Intelligence** | `reportlab` • `python-docx` • `pdfplumber` • `pypdf` • `python-pptx` • `Tesseract OCR` • `WeasyPrint` |
-| **Interfaces & Tooling** | `Vanilla CSS (Modern Dark)` • `Alpine.js` • `Textual TUI` • `HTML5 Canvas` |
+| Languages | Python · TypeScript · JavaScript · SQL · Lua · PowerShell · Bash |
+| AI and agents | LangGraph · MCP · OpenAI · Anthropic · Gemini · DeepSeek · Ollama |
+| Data and memory | PostgreSQL · SQLite (WAL, FTS5, sqlite-vec) · pgvector · Neo4j |
+| Backend and ops | FastAPI · asyncio · Docker · restic · Cloudflare |
+| Interfaces | Alpine.js · Textual · Telegram / Discord / Slack bots |
 
-</div>
+## Contact
 
----
-
-### 📊 GitHub Activity & Streak
-
-<div align="center">
-
-  <img src="https://streak-stats.demolab.com/?user=Mubder&theme=tokyonight&hide_border=true" alt="Mubder's GitHub Streak" width="48%">
-  <img src="https://ghchart.rshah.org/06b6d4/Mubder" alt="Mubder's GitHub Contribution Chart" width="48%">
-
-</div>
-
----
-
-### 📫 Connect & Inquiries
-
-- 🌐 **Website**: [kazma.ai](https://kazma.ai)
-- 🐙 **GitHub Profile**: [@Mubder](https://github.com/Mubder)
-- 📦 **Kazma Framework**: [Mubder/kazma](https://github.com/Mubder/kazma)
-- 📧 **Inquiries & Collaborations**: [admin@kazma.ai](mailto:admin@kazma.ai)
-
-<div align="center">
-  <sub>Designed & engineered by <b>Mubder Alfaris</b> — Built in Kuwait 🇰🇼</sub>
-</div>
+Pilots, partnerships and collaboration: [admin@kazma.ai](mailto:admin@kazma.ai).
+Security reports for Kazma: [private advisory](https://github.com/Mubder/kazma/security/advisories/new).
