@@ -4,8 +4,6 @@
 
 **Founder of [KazmaAI](https://kazma.ai) · I build self-hosted AI agents that ask before they act and tell the truth when they fail.**
 
-Kuwait 🇰🇼
-
 <a href="https://kazma.ai"><img src="https://img.shields.io/badge/Website-kazma.ai-06B6D4?style=flat-square" alt="Website: kazma.ai"></a>
 <a href="https://x.com/KazmaAI"><img src="https://img.shields.io/badge/X-@KazmaAI-000000?style=flat-square&logo=x&logoColor=white" alt="@KazmaAI on X"></a>
 <a href="https://x.com/b_alfaris"><img src="https://img.shields.io/badge/X-@b__alfaris%20(personal)-000000?style=flat-square&logo=x&logoColor=white" alt="@b_alfaris on X (personal)"></a>
